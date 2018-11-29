@@ -24,7 +24,7 @@ def buildTime = new Date().format("yyyy-MM-dd'T'HH:mm:ssXXX")
 
 android {
     compileSdkVersion Integer.parseInt(project.android_compile_sdk_version)
-    buildToolsVersion project.android_build_tools_version
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "jp.hazuki.yuzubrowser"
         minSdkVersion Integer.parseInt(project.android_min_sdk_version)
